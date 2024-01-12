@@ -1,9 +1,23 @@
-Project consists of 3 playwright tests using Page object pattern. 
+# Repository consists of 3 playwright tests using Page object pattern. 
 
-Project used for demonstration is the demo SwagLabs shop (https://www.saucedemo.com/v1/index.html)
+### Project used for demonstration is the demo SwagLabs shop (https://www.saucedemo.com/v1/index.html)
 
-Project setup:
-- 
+Setup:
+``` 
+git clone https://github.com/agataciesielska/swagLabs.git 
+or 
+git clone git@github.com:agataciesielska/swagLabs.git
+```
+```
+cd swagLabs
+```
+```
+npm i
+```
+```
+npm run test
+```
+
 
 Dependencies:
 - dotenv
