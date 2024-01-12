@@ -1,0 +1,30 @@
+{
+    "LOGINPAGE_ELEMENTS": {
+        "USERNAME_INPUT": "input[data-test='username']",
+        "PASSWORD_INPUT": "input[data-test='password']",
+        "LOGIN_BUTTON": "input#login-button",
+        "ERROR_MESSAGE": "[data-test='error']"
+    },
+    "HOMEPAGE_ELEMENTS": {
+        "SORTING_SELECT": "div#inventory_filter_container select",
+        "LISTING_LABEL": "div.product_label",
+        "PRODUCT_PRICE": "div.inventory_item_price",
+        "ADD_TO_CART_BUTTON": "button.btn_inventory",
+        "CART_ICON": "div#shopping_cart_container svg",
+        "ITEM_NAME": "div.inventory_item_name"
+    },
+    "CART_ELEMENTS": {
+        "HEADER": "div.subheader",
+        "CHECKOUT_BUTTON": "a.checkout_button",
+        "FIRSTNAME_INPUT": "input[data-test='firstName']",
+        "LASTNAME_INPUT": "input[data-test='lastName']",
+        "POSTAL_CODE_INPUT": "input[data-test='postalCode']",
+        "CONTINUE_BUTTON": "input.cart_button",
+        "FINISH_BUTTON": "a.cart_button"
+    },
+    "TEXTS": {
+        "CART_HEADER": "Your Cart",
+        "LISTING_HEADER": "Products",
+        "ORDER_PLACED": "THANK YOU FOR YOUR ORDER"
+    }
+}
